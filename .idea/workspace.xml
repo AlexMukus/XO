@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a806103-c711-4a88-ac28-209bf79abe89" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/XO/Main.java" afterPath="$PROJECT_DIR$/src/main/XO/Main.java" />
+      <change type="DELETED" beforePath="C:\Data\ProjectJava\XO\src\main\XO\Field\FieldOut.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="XO.iws" />
@@ -68,18 +68,18 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/XO/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/xo/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="1" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+            <state line="9" column="25" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="FieldOut.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/XO/Field/FieldOut.java">
+        <entry file="file://$PROJECT_DIR$/src/main/xo/fields/FieldOut.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="39" selection-start="655" selection-end="655" vertical-scroll-proportion="0.7906977" vertical-offset="0" max-vertical-offset="884">
+            <state line="45" column="16" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.4651163" vertical-offset="585" max-vertical-offset="1292">
               <folding />
             </state>
           </provider>
@@ -99,8 +99,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/XO/Field/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/XO/Field/FieldOut.java" />
         <option value="$PROJECT_DIR$/src/main/XO/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/XO/Field/FieldOut.java" />
+        <option value="$PROJECT_DIR$/src/main/XO/fields/FieldOut.java" />
+        <option value="$PROJECT_DIR$/src/main/xo/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/xo/fields/FieldOut.java" />
       </list>
     </option>
   </component>
@@ -168,7 +171,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="XO" />
+              <option name="myItemId" value="xo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -186,11 +189,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="XO" />
+              <option name="myItemId" value="xo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Field" />
+              <option name="myItemId" value="fields" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -340,7 +343,7 @@
       <method />
     </configuration>
     <configuration default="false" name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.XO.Main" />
+      <option name="MAIN_CLASS_NAME" value="main.xo.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -373,7 +376,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -387,7 +390,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -423,30 +426,30 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/XO/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/xo/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="5" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="289">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/XO/Field/FieldOut.java">
+    <entry file="file://$PROJECT_DIR$/src/main/xo/fields/FieldOut.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="28" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="884">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/XO/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/xo/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="1" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+        <state line="9" column="25" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/XO/Field/FieldOut.java">
+    <entry file="file://$PROJECT_DIR$/src/main/xo/fields/FieldOut.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="39" selection-start="655" selection-end="655" vertical-scroll-proportion="0.7906977" vertical-offset="0" max-vertical-offset="884">
+        <state line="45" column="16" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.4651163" vertical-offset="585" max-vertical-offset="1292">
           <folding />
         </state>
       </provider>
