@@ -2,33 +2,32 @@
 package main.xo;
 import main.xo.fields.*;
 import java.util.*;
+import main.xo.user.*;
 
 
 public class Main {
 
-    private int tempX=0;
-    private int tempY=0;
 
     public static void main(String[] args) {
-        FieldOut field = new FieldOut(0);
+        FieldOut field = new FieldOut(3);
+        ObrabotkaIO testString = new ObrabotkaIO();
+        Gamers gamers = new Gamers(2);
         Scanner testSc = new Scanner(System.in);
 
-        System.out.print("Input text: ");
+        gamers.setNamesPlayer();
+
         String temp="";
-        temp = testSc.next() ;
+        field.showField();
+        do {
+            testString.getinputtext();
+            temp = testSc.nextLine() ;
+               if (!temp.isEmpty()){
+                if (testString.findData(temp)){
+                    testString.publicKoordinate();
+                }
+            }
+        }while (!temp.isEmpty());
         testSc.close();
-
-
-        System.out.println(temp);
-        System.out.println(temp.length());
-        if (temp.charAt(1)== '1') {
-            System.out.println("Ok!");
-        }
-        else{
-            System.out.println("Fail!!");
-        }
-
-
         field.clearField();
         field.setCellX(1,1);
         field.showField();
